@@ -1,0 +1,220 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Baron",
+      "email": "baron@gmail.com",
+      "password": "test123"
+    },
+    {
+      "id": 2,
+      "username": "Samson",
+      "email": "samson@gmail.com",
+      "password": "sam123"
+    },
+    {
+      "username": "Maudy",
+      "email": "maudy@gmail.com",
+      "password": "maudy123",
+      "id": 3
+    }
+  ],
+  "movies": [
+    {
+      "title": "Batman vs Superman",
+      "description": "DC Movie but quite boring!!",
+      "url": "https://www.imdb.com/title/tt2975590/",
+      "image": "https://www.hdwallpapers.in/download/batman_v_superman_dawn_of_justice-1920x1080.jpg",
+      "id": 1
+    },
+    {
+      "title": "Equalizer 2",
+      "description": "Best Action Movie by Denzel Washington! Trust Me!",
+      "url": "https://www.imdb.com/title/tt3766354/",
+      "image": "https://stmed.net/sites/default/files/the-equalizer-wallpapers-30005-1864817.jpg",
+      "id": 2
+    },
+    {
+      "title": "Hacksaw Ridge",
+      "description": "Best Movie based on true story",
+      "url": "https://www.imdb.com/title/tt2119532/\t",
+      "image": "https://i.vimeocdn.com/video/602267104.jpg?mw=1920&mh=1080",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "title": "Avengers",
+      "description": "Best Marvel Movies you can get!!!",
+      "url": "https://www.imdb.com/title/tt0848228/",
+      "image": "http://www.1zoom.me/big2/629/299788-Sepik.jpg"
+    }
+  ],
+  "studios": [
+    {
+      "id": 1,
+      "nama": "Studio 1",
+      "jumlahKursi": 20,
+      "jumlahBaris": 2
+    },
+    {
+      "id": 2,
+      "nama": "Studio 2",
+      "jumlahKursi": 20,
+      "jumlahBaris": 2
+    },
+    {
+      "id": 3,
+      "nama": "Studio 3",
+      "jumlahKursi": 20,
+      "jumlahBaris": 2
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "movieId": 3,
+      "studioId": 3,
+      "jadwal": "Morning",
+      "totalHarga": 50000
+    },
+    {
+      "userId": 1,
+      "movieId": 2,
+      "studioId": 2,
+      "jadwal": "Evening",
+      "totalHarga": 70000,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "movieId": 2,
+      "studioId": 2,
+      "jadwal": "Evening",
+      "totalHarga": 105000,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "movieId": 2,
+      "studioId": 2,
+      "jadwal": "Morning",
+      "totalHarga": 100000,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "movieId": 2,
+      "studioId": 2,
+      "jadwal": "Morning",
+      "totalHarga": 75000,
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "movieId": 1,
+      "studioId": 1,
+      "jadwal": "Evening",
+      "totalHarga": 70000,
+      "id": 6
+    }
+  ],
+  "ordersDetails": [
+    {
+      "id": 1,
+      "orderId": 1,
+      "row": 2,
+      "seat": 4
+    },
+    {
+      "id": 2,
+      "orderId": 1,
+      "row": 2,
+      "seat": 5
+    },
+    {
+      "orderId": 2,
+      "row": 2,
+      "seat": 7,
+      "id": 3
+    },
+    {
+      "orderId": 2,
+      "row": 2,
+      "seat": 8,
+      "id": 4
+    },
+    {
+      "orderId": 3,
+      "row": 2,
+      "seat": 1,
+      "id": 5
+    },
+    {
+      "orderId": 3,
+      "row": 2,
+      "seat": 2,
+      "id": 6
+    },
+    {
+      "orderId": 3,
+      "row": 2,
+      "seat": 3,
+      "id": 7
+    },
+    {
+      "orderId": 4,
+      "row": 1,
+      "seat": 6,
+      "id": 8
+    },
+    {
+      "orderId": 4,
+      "row": 1,
+      "seat": 7,
+      "id": 9
+    },
+    {
+      "orderId": 4,
+      "row": 2,
+      "seat": 9,
+      "id": 10
+    },
+    {
+      "orderId": 4,
+      "row": 2,
+      "seat": 8,
+      "id": 11
+    },
+    {
+      "orderId": 5,
+      "row": 1,
+      "seat": 1,
+      "id": 12
+    },
+    {
+      "orderId": 5,
+      "row": 1,
+      "seat": 2,
+      "id": 13
+    },
+    {
+      "orderId": 5,
+      "row": 2,
+      "seat": 1,
+      "id": 14
+    },
+    {
+      "orderId": 6,
+      "row": 1,
+      "seat": 9,
+      "id": 15
+    },
+    {
+      "orderId": 6,
+      "row": 1,
+      "seat": 10,
+      "id": 16
+    }
+  ]
+}
